@@ -5,19 +5,31 @@ A full-stack web application built with Node.js (Express) and React for uploadin
 
 
 CREDITSEA/
+
 ├── backend/           # Express + MongoDB backend
+
 │   ├── index.js       # Entry point for backend server
+
 │   ├── database.js    # MongoDB connection
+
 │   ├── report.js      # Mongoose schema/model
+
 │   ├── reportcontrol.js # Controller logic
+
 │   ├── .env           # Environment variables (not uploaded)
+
 │   └── package.json   # Backend dependencies
 │
 ├── credit-ui/         # React frontend (Credit Report Dashboard)
+
 │   ├── src/           # React source code
+
 │   ├── public/
+
 │   ├── package.json   # Frontend dependencies
+
 │   └── build/         # Production build (generated)
+
 │
 └── README.md          # This file
 
