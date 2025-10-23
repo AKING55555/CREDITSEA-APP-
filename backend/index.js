@@ -8,7 +8,10 @@ import { uploadreport, getreports } from "./reportcontrol.js";
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000",   
+  origin: [
+    "http://localhost:3000",               
+    "https://credit-frontend.netlify.app", 
+  ],
   methods: ["GET", "POST"],
   credentials: true,
 }));
