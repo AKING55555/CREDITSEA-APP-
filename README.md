@@ -35,8 +35,11 @@ CREDITSEA/
 
 
 RUN BACKEND = Inside of backend just run { node index.js }
+
 RUN FRONTEND = Inside of credit-ui just run { npm start }
 
 FOR LIVE HOSTING VIEW-
+
 BACKEND- https://creditsea-app-9e2d.onrender.com/      Open this backend hosting before the frontend cause it takes 2-3 mins to deploy as of sleep mode in free plan of render 😂
+
 FRONTEND - https://credit-frontend.netlify.app/        Open this link for viewing the site.....
