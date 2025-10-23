@@ -129,7 +129,7 @@ const App = () => {
   useEffect(() => {
     const fetchReport = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/reports');
+        const res = await fetch('https://creditsea-app-9e2d.onrender.com/api/reports');  //http://localhost:5000/api/reports <<use this for computer run
         if (!res.ok) throw new Error('Failed to fetch data');
         const data = await res.json();
 
